@@ -41,6 +41,7 @@ R: General Purpose Register (4 bytes)
 <br>
 C: Toggle (1 byte)
 
+<hr>
 
 ## Phase - 2
 
