@@ -16,18 +16,25 @@
 2. Supervisor Call through interrupt
 
 ### Assumption :
-• Jobs entered without error in input file
-• No physical separation between jobs
-• Job outputs separated in output file by 2 blank lines
-• Program loaded in memory starting at location 00
-• No multiprogramming, load and run one program at a time
-• SI interrupts for service request
+1. Jobs entered without error in input file
+2. No physical separation between jobs
+3. Job outputs separated in output file by 2 blank lines
+4. Program loaded in memory starting at location 00
+5. No multiprogramming, load and run one program at a time
+6. SI interrupts for service request
 
-NOTATION
+### NOTATION
+<br>
 M: memory; IR: Instruction Register (4 bytes)
+<br>
 IR [1, 2]: Bytes 1, 2 of IR/Operation Code
+<br>
 IR [3, 4]: Bytes 3,4 of IR/Operand Address
-M [&]: Content of memory location &
+<br>
+M [&]: Content of memory location
+<br>
 IC: Instruction Counter Register (2 bytes)
+<br>
 R: General Purpose Register (4 bytes)
+<br>
 C: Toggle (1 byte)
