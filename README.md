@@ -1,4 +1,4 @@
-# Virtual_Operating_System
+# Virtual Operating System
 <hr>
 
 ## Simulation of Operating System fuctionality such as 
