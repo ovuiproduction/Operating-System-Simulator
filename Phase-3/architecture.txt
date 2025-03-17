@@ -1,0 +1,12 @@
+secondary memory => 400*4
+primary memory => 200*4
+
+burst time = ttl;
+arrval time = pid;
+pid = pid;
+
+problems
+
+how to call function from one file to another file
+how to import data that file1 function return 
+how to excess the parameters from file2 to file1 function
