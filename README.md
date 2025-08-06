@@ -101,3 +101,6 @@ TLL: Total Line Limit
 <br>
 EM: Error Message
 <br>
+
+## License
+This project is licensed under the [MIT License](https://github.com/ovuiproduction/Operating-System-Simulator/blob/main/LICENSE)
