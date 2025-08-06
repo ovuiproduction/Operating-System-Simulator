@@ -24,22 +24,22 @@
 6. SI interrupts for service request
 
 ### NOTATION
-<br>
-M: memory; 
-<br>
-IR: Instruction Register (4 bytes)
-<br>
-IR [1, 2]: Bytes 1, 2 of IR/Operation Code
-<br>
-IR [3, 4]: Bytes 3,4 of IR/Operand Address
-<br>
-M [&]: Content of memory location
-<br>
-IC: Instruction Counter Register (2 bytes)
-<br>
-R: General Purpose Register (4 bytes)
-<br>
-C: Toggle (1 byte)
+    <br>
+    M: memory; 
+    <br>
+    IR: Instruction Register (4 bytes)
+    <br>
+    IR [1, 2]: Bytes 1, 2 of IR/Operation Code
+    <br>
+    IR [3, 4]: Bytes 3,4 of IR/Operand Address
+    <br>
+    M [&]: Content of memory location
+    <br>
+    IC: Instruction Counter Register (2 bytes)
+    <br>
+    R: General Purpose Register (4 bytes)
+    <br>
+    C: Toggle (1 byte)
 
 <hr>
 
@@ -66,41 +66,41 @@ C: Toggle (1 byte)
 
 
 ### NOTATION
-<br>
-M: memory
-<br>
-IR: Instruction Register (4 bytes)
-<br>
-IR [1,2]: Bytes 1,2 of IR/Operation Code
-<br>
-IR [3, 4]: Bytes 3, 4 of IR/Operand Address
-<br>
-M[&]: Content of memory location 
-<br>
-IC: Instruction Counter Register (2 bytes)
-<br>
-R: General Purpose Register (4 bytes)
-<br>
-C: Toggle (1 byte)
-<br>
-PTR: Page Table Register (4 bytes)
-<br>
-PCB: Process Control Block (data structure)
-<br>
-VA: Virtual Address
-<br>
-RA: Real Address
-<br>
-TTC: Total Time Counter
-<br>
-LLC: Line Limit Counter
-<br>
-TTL: Total Time Limit
-<br>
-TLL: Total Line Limit
-<br>
-EM: Error Message
-<br>
+    <br>
+    M: memory
+    <br>
+    IR: Instruction Register (4 bytes)
+    <br>
+    IR [1,2]: Bytes 1,2 of IR/Operation Code
+    <br>
+    IR [3, 4]: Bytes 3, 4 of IR/Operand Address
+    <br>
+    M[&]: Content of memory location 
+    <br>
+    IC: Instruction Counter Register (2 bytes)
+    <br>
+    R: General Purpose Register (4 bytes)
+    <br>
+    C: Toggle (1 byte)
+    <br>
+    PTR: Page Table Register (4 bytes)
+    <br>
+    PCB: Process Control Block (data structure)
+    <br>
+    VA: Virtual Address
+    <br>
+    RA: Real Address
+    <br>
+    TTC: Total Time Counter
+    <br>
+    LLC: Line Limit Counter
+    <br>
+    TTL: Total Time Limit
+    <br>
+    TLL: Total Line Limit
+    <br>
+    EM: Error Message
+    <br>
 
 ## License
 This project is licensed under the [MIT License](https://github.com/ovuiproduction/Operating-System-Simulator/blob/main/LICENSE)
